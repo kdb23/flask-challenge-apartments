@@ -46,9 +46,9 @@ to the database.
 
 As a user, I can:
 
-- Create, read, update and delete **Apartments**
-- Create, read, update and delete **Tenants**
-- Create and delete **Lease**
+- Create, read, update and delete **Apartments** (GET, POST, PATCH, DELETE)
+- Create, read, update and delete **Tenants** (GET,POST,PATCH, DELETE)
+- Create and delete **Lease** (GET & DELETE)
 
 Follow good API design practices and use RESTful routing conventions. Make sure
 to handle errors and invalid data by returning the appropriate status code along
